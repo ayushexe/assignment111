@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: lightblue
+}
+
+
+.main{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header {
+    text-align: center;
+    background:  darkviolet;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+
+
+}
+.header p{
+    padding-top: 7px;
+}
+
+.Jumbotron{
+    text-align: center;
+    background: darkviolet;
+    height: 90px;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;  margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+
+    /* padding-bottom: 5px; */
+    
+}
+
+.class1{
+    width: 33%;
+    height: 90px;
+    background: darkviolet;
+    margin-top: 8px;
+    margin-left: 7px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.class2{
+    width:33%;
+    height: 90px;
+    background: darkviolet;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.class3{
+    width: 33%;
+    height: 90px;
+    background: darkviolet;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+
+.abcd{
+    display: flex;
+}
+.class2 h4{
+margin-top: 7px;
+}
+.class1 h4{
+    margin-top: 7px;
+    }
+    .class3 h4{
+        margin-top: 7px;
+        }
+    
+
+        .Section{
+            text-align: center;
+            background: darkviolet;
+            height: 180px;
+            color: white;
+            font-size: 20px;
+            margin-top: 5px;
+            /* padding-top: 3px;  */
+            margin-left: 5px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        .footer{
+            text-align: center;
+        background:  darkviolet;
+        height: 40px;
+        color: white;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 8px;
+        }
+         @media(max-width:800px){
+
+            .abcd{
+                display: flex;
+            }
+            .class1{
+                width: 47%;
+                height: 80px;
+                background: darkviolet;
+                margin-top: 8px;
+                margin-left: 7px;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .class2{
+                width: 47%;
+                height: 80px;
+                background: darkviolet;
+                margin-top: 8px;
+                /* margin-left: 5px; */
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                padding-right: 19px;
+            }
+
+            .class3{
+                display: none;
+            }
+
+            .Section{
+                text-align: center;
+                background: darkviolet;
+                height: 90px;
+                color: white;
+                font-size: 20px;
+                margin-top: 5px;
+                /* padding-top: 3px;  */
+                /* margin-left: 5px;
+                margin-right: 5px; */
+                margin-right: 10px;
+                font-weight: bold;
+            }
+         }
+         @media(max-width:500px){
+
+            .abcd{
+                display: block;
+            }
+            .class1{
+                width: 100%;
+                height: 80px;
+                background: darkviolet;
+                margin-top: 8px;
+                margin-left: 7px;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .class2{
+                width: 100%;
+                height: 80px;
+                background: darkviolet;
+                margin-top: 8px;
+                /* margin-left: 5px; */
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                padding-right: 19px;
+            }
+
+            .class3{
+                display: none;
+            }
+
+            .Section{
+                text-align: center;
+                background: darkviolet;
+                height: 80px;
+                color: white;
+                font-size: 20px;
+                margin-top: 5px;
+                /* padding-top: 3px;  */
+                margin-left: 5px;
+                margin-right: 5px;
+                font-weight: bold;
+            }
+         }
+        
